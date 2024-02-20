@@ -7,11 +7,11 @@ PickaxeWorld = string.upper(PickaxeWorld)
 PickaxeWorldID = string.upper(PickaxeWorldID)
 bot.collect_range=4
 bot.auto_collect = false
-function GonWebhook(Nextar)
+function GonWebhook(Nguli Ngab)
     local script = [[
     $webHookUrl = "]]..WebhookUrl..[["
     $thumbnailObject = [PSCustomObject]@{
-    url = "https://cdn.discordapp.com/emojis/1016295109970645022.gif?size=80&quality=lossless"
+    url = "https://media.tenor.com/FD5xRON9nJ4AAAAM/food-cooking.gif"
     }
     $color = Get-Random -Minimum 0 -Maximum 16777215
     $title = ' - Rotation'
