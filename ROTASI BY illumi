@@ -7,7 +7,7 @@ PickaxeWorld = string.upper(PickaxeWorld)
 PickaxeWorldID = string.upper(PickaxeWorldID)
 bot.collect_range=4
 bot.auto_collect = false
-function GonWebhook(Nguli Ngab)
+function GonWebhook(Nguli)
     local script = [[
     $webHookUrl = "]]..WebhookUrl..[["
     $thumbnailObject = [PSCustomObject]@{
